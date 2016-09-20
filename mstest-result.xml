@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1f5b9128-927c-44d5-957e-c33d2864458a" name="ilyaf@DESKTOP-G1TV4KA 2016-09-20 15:30:50" runUser="DESKTOP-G1TV4KA\ilyaf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="066188ab-62e5-47f5-b328-04c7743d83a6">
+    <Deployment userDeploymentRoot="C:\Projects" useDefaultDeploymentRoot="false" runDeploymentRoot="ilyaf_DESKTOP-G1TV4KA 2016-09-20 15_30_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-09-20T15:30:50.1875843-07:00" queuing="2016-09-20T15:30:50.6166210-07:00" start="2016-09-20T15:30:50.7550532-07:00" finish="2016-09-20T15:30:51.1664748-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MsTestMethod2" storage="c:\projects\unittestprojects\mstestunittestproject\bin\debug\mstestunittestproject.dll" id="f4c49b7d-0960-0348-d4c1-85ddc97db2d1">
+      <Execution id="4ce9c99e-8741-4262-beb6-b409016a0613" />
+      <TestMethod codeBase="C:/Projects/UnitTestProjects/MsTestUnitTestProject/bin/Debug/MsTestUnitTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MsTestUnitTestProject.MsTestUnitTests, MsTestUnitTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MsTestMethod2" />
+    </UnitTest>
+    <UnitTest name="MsTestMethod1" storage="c:\projects\unittestprojects\mstestunittestproject\bin\debug\mstestunittestproject.dll" id="f53a8bcc-39a2-e7cd-7e05-c02618d203d1">
+      <Execution id="791ce1b2-b97b-42e1-82dc-fb60d97a01c1" />
+      <TestMethod codeBase="C:/Projects/UnitTestProjects/MsTestUnitTestProject/bin/Debug/MsTestUnitTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MsTestUnitTestProject.MsTestUnitTests, MsTestUnitTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MsTestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f53a8bcc-39a2-e7cd-7e05-c02618d203d1" executionId="791ce1b2-b97b-42e1-82dc-fb60d97a01c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4c49b7d-0960-0348-d4c1-85ddc97db2d1" executionId="4ce9c99e-8741-4262-beb6-b409016a0613" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="791ce1b2-b97b-42e1-82dc-fb60d97a01c1" testId="f53a8bcc-39a2-e7cd-7e05-c02618d203d1" testName="MsTestMethod1" computerName="DESKTOP-G1TV4KA" duration="00:00:00.0146181" startTime="2016-09-20T15:30:50.8010856-07:00" endTime="2016-09-20T15:30:51.0709878-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="791ce1b2-b97b-42e1-82dc-fb60d97a01c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ce9c99e-8741-4262-beb6-b409016a0613" testId="f4c49b7d-0960-0348-d4c1-85ddc97db2d1" testName="MsTestMethod2" computerName="DESKTOP-G1TV4KA" duration="00:00:00.0308715" startTime="2016-09-20T15:30:51.0759910-07:00" endTime="2016-09-20T15:30:51.1100137-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ce9c99e-8741-4262-beb6-b409016a0613">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at MsTestUnitTestProject.MsTestUnitTests.MsTestMethod2() in C:\Projects\UnitTestProjects\MsTestUnitTestProject\UnitTest1.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

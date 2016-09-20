@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="C:\Projects\UnitTestProjects\XUnitTestProject\bin\Debug\XUnitTestProject.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.1.0.3179" run-date="2016-09-20" run-time="13:55:39" config-file="C:\Projects\UnitTestProjects\packages\xunit.runner.console.2.1.0\tools\xunit.console.exe.Config" total="2" passed="1" failed="1" skipped="0" time="0.221" errors="0">
+    <errors />
+    <collection total="2" passed="1" failed="1" skipped="0" name="Test collection for XUnitTestProject.XNUnitTest1" time="0.051">
+      <test name="XUnitTestProject.XNUnitTest1.XUnitTestMethod2" type="XUnitTestProject.XNUnitTest1" method="XUnitTestMethod2" time="0.0473502" result="Fail">
+        <failure exception-type="Xunit.Sdk.EqualException">
+          <message><![CDATA[Assert.Equal() Failure\r\nExpected: 1\r\nActual:   2]]></message>
+          <stack-trace><![CDATA[   at XUnitTestProject.XNUnitTest1.XUnitTestMethod2() in C:\Projects\UnitTestProjects\XUnitTestProject\XUnitTest1.cs:line 17]]></stack-trace>
+        </failure>
+      </test>
+      <test name="XUnitTestProject.XNUnitTest1.XUnitTestMethod1" type="XUnitTestProject.XNUnitTest1" method="XUnitTestMethod1" time="0.0038437" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>
